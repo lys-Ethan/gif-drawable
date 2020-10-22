@@ -4,6 +4,7 @@
 
 #include "hello.h"
 #include <string>
+#include <gif_lib.h>
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_ethanlee_test_TestUtils_jnitest(
         JNIEnv* env,

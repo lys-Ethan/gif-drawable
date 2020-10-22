@@ -9,6 +9,9 @@ cmake_minimum_required(VERSION 3.4.1)
     # define multiple libraries by adding multiple add_library() commands,
     # and CMake builds them for you. When you build your app, Gradle
     # automatically packages shared libraries with your APK.
+file(GLOB giflibs ${CMAKE_SOURCE_DIR}/giflib/*.c)
+
+include_directories(${CMAKE_SOURCE_DIR}/giflib)
 
 add_library( # Specifies the name of the library.
                  native-lib
@@ -17,8 +20,14 @@ add_library( # Specifies the name of the library.
                  SHARED
 
                  # Provides a relative path to your source file(s).
-        hello.cpp)
+                    hello.cpp
+                    ${giflibs}
+        )
+
+
+
 
 # Links your native library against one or more other native libraries.
 target_link_libraries( # Specifies the target library.
-                           native-lib)
+                           native-lib
+        )
