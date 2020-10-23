@@ -1,6 +1,6 @@
 package com.ethanlee
 
-import com.ethanlee.test.TestUtils
+import com.ethanlee.gifdrawable.test.TestUtils
 import org.junit.Test
 
 import org.junit.Assert.*

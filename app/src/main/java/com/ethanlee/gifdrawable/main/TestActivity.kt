@@ -1,4 +1,4 @@
-package com.ethanlee
+package com.ethanlee.gifdrawable.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.annotation.SuppressLint
@@ -10,7 +10,8 @@ import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
-import com.ethanlee.test.TestUtils
+import com.ethanlee.gifdrawable.R
+import com.ethanlee.gifdrawable.test.TestUtils
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.

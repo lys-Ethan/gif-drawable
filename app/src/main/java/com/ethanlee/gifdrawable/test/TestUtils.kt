@@ -1,4 +1,4 @@
-package com.ethanlee.test
+package com.ethanlee.gifdrawable.test
 
 object TestUtils {
 
